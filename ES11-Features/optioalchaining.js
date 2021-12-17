@@ -6,4 +6,4 @@ const obj = {
           }
      }
 };
-console.log(obj.a.b.c);
+console.log(obj.a.b.c);//10

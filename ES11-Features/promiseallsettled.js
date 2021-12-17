@@ -37,7 +37,7 @@ const promise3 = new Promise((resolve, reject)=>{
 //   { status: 'fulfilled', value: 'two' }
 // ]
 
-Promise.allSettled([promise1, promise2,promise3])
+Promise.all([promise1, promise2,promise3])
     .then((result) => {
         console.log(result);
     });
